@@ -19,9 +19,9 @@ const language: ISkill.Skill = {
       title: 'C / C#',
       level: 3,
     },
-    { 
-      title: 'Unity', 
-      level: 2 
+    {
+      title: 'Unity',
+      level: 2,
     },
     {
       title: 'Python',
