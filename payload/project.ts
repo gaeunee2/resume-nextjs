@@ -89,7 +89,7 @@ const project: IProject.Payload = {
       where: 'K-html 해커톤 (본선 진출)',
       descriptions: [
         {
-          content: '서비스 기획, 전체 UX 흐름 설계, 프론트엔드 개발 담당 (팀장 역할)',
+          content: '서비스 기획, 전체 UX 흐름 설계, 프론트엔드 개발 담당 (팀장)',
         },
         {
           content:

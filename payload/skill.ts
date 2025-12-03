@@ -4,15 +4,7 @@ const language: ISkill.Skill = {
   category: 'Language & Framework',
   items: [
     {
-      title: 'Java & Spring',
-      level: 3,
-    },
-    {
-      title: 'React & Next.js',
-      level: 3,
-    },
-    {
-      title: 'Kotlin (Android)',
+      title: 'Java & Spring Boot',
       level: 3,
     },
     {
@@ -20,11 +12,11 @@ const language: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Unity',
+      title: 'React & TypeScript',
       level: 2,
     },
     {
-      title: 'Python',
+      title: 'Kotlin (Android)',
       level: 2,
     },
   ],
@@ -72,18 +64,6 @@ const tools: ISkill.Skill = {
     {
       title: 'Notion',
       level: 3,
-    },
-    {
-      title: 'Jupyter',
-      level: 3,
-    },
-    {
-      title: 'Figma',
-      level: 2,
-    },
-    {
-      title: 'Nginx',
-      level: 1,
     },
   ],
 };
