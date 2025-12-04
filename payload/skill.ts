@@ -8,6 +8,10 @@ const language: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Kotlin (Android)',
+      level: 3,
+    },
+    {
       title: 'C / C#',
       level: 3,
     },
@@ -16,7 +20,7 @@ const language: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Kotlin (Android)',
+      title: 'Python',
       level: 2,
     },
   ],
