@@ -18,8 +18,8 @@ const etc: IEtc.Payload = {
     {
       title: '위아이티 6th',
       subTitle: '데이터분석 연합동아리',
-      startedAt: '2024-07',
-      endedAt: '2024-08',
+      startedAt: '2024-09',
+      endedAt: '2025-02',
     },
     {
       title: 'AWS Cloud Club Crew 3th',
