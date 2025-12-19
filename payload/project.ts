@@ -74,7 +74,7 @@ const project: IProject.Payload = {
         },
         {
           content: '서비스 URL',
-          href: 'https://luckysom.clicken.co.kr/',
+          href: 'https://luckysom.clickn.co.kr/',
         },
         {
           content: 'Github Repository',
