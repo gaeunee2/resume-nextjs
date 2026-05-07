@@ -8,38 +8,50 @@ const language: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Kotlin (Android)',
-      level: 3,
-    },
-    {
-      title: 'C / C#',
-      level: 3,
-    },
-    {
       title: 'React & TypeScript',
+      level: 3,
+    },
+    {
+      title: 'Kotlin (Android)',
       level: 2,
     },
     {
       title: 'Python',
       level: 2,
     },
+    {
+      title: 'C / C#',
+      level: 3,
+    },
   ],
 };
 
 const database: ISkill.Skill = {
-  category: 'Database & Cache',
+  category: 'Database & Backend',
   items: [
+    {
+      title: 'PostgreSQL',
+      level: 3,
+    },
     {
       title: 'MySQL',
       level: 3,
+    },
+    {
+      title: 'Redis',
+      level: 2,
     },
     {
       title: 'Firebase Firestore',
       level: 2,
     },
     {
-      title: 'AWS RDS',
-      level: 1,
+      title: 'JPA / Hibernate',
+      level: 3,
+    },
+    {
+      title: 'Flyway',
+      level: 2,
     },
   ],
 };
@@ -48,26 +60,46 @@ const infrastructure: ISkill.Skill = {
   category: 'Infrastructure & DevOps',
   items: [
     {
-      title: 'AWS',
+      title: 'AWS (EC2, RDS, S3)',
+      level: 3,
+    },
+    {
+      title: 'GitHub Actions',
+      level: 3,
+    },
+    {
+      title: 'Docker',
       level: 2,
     },
     {
       title: 'Linux',
       level: 2,
     },
+    {
+      title: 'Nginx',
+      level: 2,
+    },
   ],
 };
 
 const tools: ISkill.Skill = {
-  category: 'Tools & Others',
+  category: 'Tools & Collaboration',
   items: [
     {
-      title: 'Git',
+      title: 'Git & GitHub',
+      level: 3,
+    },
+    {
+      title: 'Swagger / OpenAPI',
       level: 3,
     },
     {
       title: 'Notion',
       level: 3,
+    },
+    {
+      title: 'Figma',
+      level: 2,
     },
   ],
 };
