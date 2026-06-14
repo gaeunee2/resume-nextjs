@@ -12,16 +12,16 @@ const language: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'C / C#',
+      level: 3,
+    },
+    {
       title: 'Kotlin (Android)',
       level: 2,
     },
     {
       title: 'Python',
       level: 2,
-    },
-    {
-      title: 'C / C#',
-      level: 3,
     },
   ],
 };
@@ -38,16 +38,16 @@ const database: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'JPA / Hibernate',
+      level: 3,
+    },
+    {
       title: 'Redis',
       level: 2,
     },
     {
       title: 'Firebase Firestore',
       level: 2,
-    },
-    {
-      title: 'JPA / Hibernate',
-      level: 3,
     },
     {
       title: 'Flyway',
@@ -64,12 +64,12 @@ const infrastructure: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'GCP',
-      level: 2,
-    },
-    {
       title: 'GitHub Actions',
       level: 3,
+    },
+    {
+      title: 'GCP',
+      level: 2,
     },
     {
       title: 'Docker',
