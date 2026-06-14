@@ -1,8 +1,18 @@
-import { PropsWithChildren } from 'react';
+import { Fragment, PropsWithChildren } from 'react';
 import { Row, Col } from 'reactstrap';
 import { IRow } from './IRow';
 import { Style } from './Style';
 import { CommonDescription } from './CommonDescription';
+
+// subTitle 내 개행문자(\n)를 <br/> 로 렌더링
+function renderMultiline(text: string) {
+  return text.split('\n').map((line, index) => (
+    <Fragment key={index.toString()}>
+      {index > 0 ? <br /> : null}
+      {line}
+    </Fragment>
+  ));
+}
 
 export function CommonRows({
   index,
@@ -26,7 +36,7 @@ export function CommonRows({
         </Col>
         <Col sm={12} md={9}>
           {right.title ? <h4>{right.title}</h4> : ''}
-          {right.subTitle ? <i style={Style.gray}>{right.subTitle}</i> : ''}
+          {right.subTitle ? <i style={Style.gray}>{renderMultiline(right.subTitle)}</i> : ''}
           {right.descriptions ? (
             <CommonDescription
               descriptions={right.descriptions}
