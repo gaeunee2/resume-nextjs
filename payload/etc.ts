@@ -5,9 +5,9 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: '리눅스마스터 2급',
+      title: 'SQLD',
       subTitle: '자격증 취득',
-      startedAt: '2026-06',
+      startedAt: '2025-10',
     },
     {
       title: 'ADsP',
@@ -15,9 +15,9 @@ const etc: IEtc.Payload = {
       startedAt: '2026-05',
     },
     {
-      title: 'SQLD',
+      title: '리눅스마스터 2급',
       subTitle: '자격증 취득',
-      startedAt: '2025-10',
+      startedAt: '2026-06',
     },
     {
       title: 'AWS Cloud Club Crew 3th',
@@ -26,9 +26,9 @@ const etc: IEtc.Payload = {
       endedAt: '2026-02',
     },
     {
-      title: 'UMC',
+      title: 'UMC 9th · 10th',
       subTitle:
-        '대학생 연합 IT 동아리 10th 회장\nGit 세션 진행 및 Spring Boot 파트 활동\nAI 튜터 서비스 ‘Proovy’ 개발 리딩',
+        '전국 대학생 연합 IT 프로젝트 동아리\n동덕여자대학교 10th 회장 · 10th Plan 파트 활동\nGit Session 진행 및 4개 대학(단국대·동덕여대·숭실대·중앙대) 연합 ‘MESH’ 해커톤 총괄 기획·주최\n→ https://meshhack.umc.it.kr/\n9th Spring Boot 파트 활동',
       startedAt: '2025-09',
       endedAt: '2026-08',
     },

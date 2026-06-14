@@ -4,6 +4,32 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '인터랙티브 캠퍼스 홍보 웹서비스, "럭키솜(LuckySom)" 개발',
+      startedAt: '2025-06',
+      endedAt: '2025-07',
+      where: '가비아CNS 웹사이트 공모전 (최우수상(2등상) 수상)',
+      descriptions: [
+        {
+          content: 'React 기반 인터랙티브 캠퍼스 홍보 웹서비스 기획·풀스택 개발 총괄 (팀장)',
+        },
+        {
+          content:
+            '완전 이진트리 기반 MBTI 질문 흐름·결과 자동 매핑 로직을 설계해 분기 처리 복잡도 해소',
+        },
+        {
+          content: 'SNS·에브리타임 홍보 전략 실행으로 누적 방문자 11,000+ 달성',
+        },
+        {
+          content: '서비스 URL',
+          href: 'https://luckysom.clickn.co.kr/',
+        },
+        {
+          content: 'Github Repository',
+          href: 'https://github.com/gaeunee2/somragodong',
+        },
+      ],
+    },
+    {
       title: '색 기반 걷기 루틴 생성 웹 서비스, "HueStep" 개발',
       startedAt: '2025-10',
       endedAt: '2025-11',
@@ -27,32 +53,6 @@ const project: IProject.Payload = {
         {
           content: 'Github Repository',
           href: 'https://github.com/HueStepPori/HueStep-mobile',
-        },
-      ],
-    },
-    {
-      title: '인터랙티브 캠퍼스 홍보 웹서비스, "럭키솜(LuckySom)" 개발',
-      startedAt: '2025-06',
-      endedAt: '2025-07',
-      where: '가비아CNS 웹사이트 공모전 (최우수상(2등상) 수상)',
-      descriptions: [
-        {
-          content: 'React 기반 인터랙티브 캠퍼스 홍보 웹서비스 기획·풀스택 개발 총괄 (팀장)',
-        },
-        {
-          content:
-            '완전 이진트리 기반 MBTI 질문 흐름·결과 자동 매핑 로직을 설계해 분기 처리 복잡도 해소',
-        },
-        {
-          content: 'SNS·에브리타임 홍보 전략 실행으로 누적 방문자 11,000+ 달성',
-        },
-        {
-          content: '서비스 URL',
-          href: 'https://luckysom.clickn.co.kr/',
-        },
-        {
-          content: 'Github Repository',
-          href: 'https://github.com/gaeunee2/somragodong',
         },
       ],
     },

@@ -60,8 +60,12 @@ const infrastructure: ISkill.Skill = {
   category: 'Infrastructure & DevOps',
   items: [
     {
-      title: 'AWS (EC2, RDS, S3)',
+      title: 'AWS',
       level: 3,
+    },
+    {
+      title: 'GCP',
+      level: 2,
     },
     {
       title: 'GitHub Actions',

@@ -11,7 +11,7 @@ const awards: IEtc.Payload = {
     },
     {
       title: '가비아CNS 웹사이트 공모전',
-      subTitle: '우수상',
+      subTitle: '최우수상(2등상)',
       startedAt: '2025-07',
     },
     {
