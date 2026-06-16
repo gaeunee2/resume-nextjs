@@ -15,20 +15,15 @@ const etc: IEtc.Payload = {
       startedAt: '2026-05',
     },
     {
-      title: '리눅스마스터 2급',
-      subTitle: '자격증 취득',
-      startedAt: '2026-06',
-    },
-    {
       title: 'AWS Cloud Club Crew 3th',
-      subTitle: 'ACC DDWU 운영진\nAWS·Kubernetes 세션 발표 및 Spring Boot 스터디 리딩',
+      subTitle: 'ACC DDWU 운영진\nKubernetes 세션 발표 및 Spring Boot 스터디 리딩',
       startedAt: '2025-09',
       endedAt: '2026-02',
     },
     {
       title: 'UMC 9th · 10th',
       subTitle:
-        '전국 대학생 연합 IT 프로젝트 동아리\n동덕여자대학교 10th 회장 · 10th Plan 파트 활동\nGit Session 진행 및 4개 대학(단국대·동덕여대·숭실대·중앙대) 연합 ‘MESH’ 해커톤 총괄 기획·주최\n→ https://meshhack.umc.it.kr/\n9th Spring Boot 파트 활동',
+        '전국 대학생 연합 IT 프로젝트 동아리\n동덕여자대학교 10th 회장 · 10th Plan 파트 활동\nGit Session 진행 및 4개 대학(단국대·동덕여대·숭실대·중앙대) 연합 ‘MESH’ 해커톤 기획·주최\n→ https://meshhack.umc.it.kr/\n9th Spring Boot 파트 활동',
       startedAt: '2025-09',
       endedAt: '2026-08',
     },
