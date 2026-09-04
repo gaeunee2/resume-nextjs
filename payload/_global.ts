@@ -3,7 +3,7 @@ import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = 'GaEun - Backend Developer';
-const description = 'Java/Spring Boot 기반 백엔드 개발자.';
+const description = 'Kotlin/Spring Boot 기반 백엔드 개발자.';
 
 export const _global: IGlobal.Payload = {
   favicon,

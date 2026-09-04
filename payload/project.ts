@@ -4,7 +4,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '인터랙티브 캠퍼스 홍보 웹서비스, "럭키솜(LuckySom)" 개발',
+      title: '인터랙티브 캠퍼스 홍보 웹서비스, "럭키솜(LuckySom)" 프론트엔드',
       startedAt: '2025-06',
       endedAt: '2025-07',
       where: '가비아CNS 웹사이트 공모전 (최우수상(2등상) 수상)',
@@ -30,7 +30,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '색 기반 걷기 루틴 생성 웹 서비스, "HueStep" 개발',
+      title: '색 기반 걷기 루틴 생성 웹 서비스, "HueStep" PM&프론트엔드',
       startedAt: '2025-10',
       endedAt: '2025-11',
       where: '동덕여자대학교 소프트웨어경진대회 (우수상 수상)',
@@ -57,10 +57,64 @@ const project: IProject.Payload = {
       ],
     },
     {
+      title: '게이미피케이션 기반 AI 투자 교육 플랫폼, BRIFO PM&백엔드',
+      startedAt: '2026-03',
+      endedAt: '2026-08',
+      where: '10th UMC DEMO DAY (우수상 수상)',
+      descriptions: [
+        {
+          content: 'PM으로 기획서·기능명세서 작성, Figma로 와이어프레임·화면설계서 제작',
+        },
+        {
+          content:
+            'Kotlin·Spring Boot 기반 백엔드 개발 — 뉴스 수집, AI 카드뉴스 생성, 종가 수집, 예측 정산 Spring Batch 파이프라인 구현',
+        },
+        {
+          content: '한국투자증권(KIS) Open API·네이버 뉴스검색 API 연동',
+        },
+        {
+          content:
+            'KIS 토큰을 Valkey에 캐싱하고 TTL 락을 적용해 다중 인스턴스 환경의 토큰 발급 제한 초과 오류 해결',
+        },
+        {
+          content:
+            '외부 API 호출을 트랜잭션 밖으로 분리하고 호출 간 스로틀링을 적용해, 종목 1건 실패로 종가 배치 전체가 롤백되던 문제 해결',
+        },
+        {
+          content: 'QueryDSL 조회 쿼리 용도별 분리 및 뉴스 종목 관련성 필터 구현',
+        },
+        {
+          content: 'Github Repository',
+          href: 'https://github.com/Team-BRIFO',
+        },
+      ],
+    },
+    {
+      title: 'VR 기업의 교육 분야 진출 전략 수립을 위한 데이터 분석 프로젝트',
+      startedAt: '2024-12',
+      endedAt: '2025-02',
+      where: '위아이티X데이터스테이션 프로젝트 (우수상 수상)',
+      descriptions: [
+        {
+          content: 'Python 기반 데이터 전처리·시각화 및 상관분석(Pearson Correlation) 수행',
+        },
+        {
+          content: 'K-means 클러스터링으로 VR 기기 보유자 특성·잠재 사용자층 세분화',
+        },
+        {
+          content: '분석 결과 기반 VR 기업의 교육 시장 진출 전략 및 타겟 마케팅 방향 제안',
+        },
+        {
+          content: 'Github Repository',
+          href: 'https://github.com/gaeunee2/we_it12',
+        },
+      ],
+    },
+    {
       title: '이공계 대학생을 위한 AI 튜터 서비스, "Proovy" 개발',
       startedAt: '2026-01',
       endedAt: '2026-02',
-      where: 'UMC 9th 최종 프로젝트',
+      where: '9th UMC 최종 프로젝트',
       descriptions: [
         {
           content:
@@ -99,27 +153,6 @@ const project: IProject.Payload = {
         {
           content: 'Github Repository',
           href: 'https://github.com/orgs/Pureureum/repositories',
-        },
-      ],
-    },
-    {
-      title: 'VR 기업의 교육 분야 진출 전략 수립을 위한 데이터 분석 프로젝트',
-      startedAt: '2024-12',
-      endedAt: '2025-02',
-      where: '위아이티X데이터스테이션 프로젝트 (우수상 수상)',
-      descriptions: [
-        {
-          content: 'Python 기반 데이터 전처리·시각화 및 상관분석(Pearson Correlation) 수행',
-        },
-        {
-          content: 'K-means 클러스터링으로 VR 기기 보유자 특성·잠재 사용자층 세분화',
-        },
-        {
-          content: '분석 결과 기반 VR 기업의 교육 시장 진출 전략 및 타겟 마케팅 방향 제안',
-        },
-        {
-          content: 'Github Repository',
-          href: 'https://github.com/gaeunee2/we_it12',
         },
       ],
     },

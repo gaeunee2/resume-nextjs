@@ -8,6 +8,10 @@ const language: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Kotlin & Spring Boot',
+      level: 2,
+    },
+    {
       title: 'React & TypeScript',
       level: 3,
     },

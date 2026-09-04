@@ -5,14 +5,19 @@ const awards: IEtc.Payload = {
 
   list: [
     {
+      title: '가비아CNS 웹사이트 공모전',
+      subTitle: '최우수상(2등상)',
+      startedAt: '2025-07',
+    },
+    {
       title: '동덕여자대학교 소프트웨어 경진대회 14회',
       subTitle: '우수상',
       startedAt: '2025-11',
     },
     {
-      title: '가비아CNS 웹사이트 공모전',
-      subTitle: '최우수상(2등상)',
-      startedAt: '2025-07',
+      title: '10th UMC DEMO DAY',
+      subTitle: '우수상',
+      startedAt: '2026-08',
     },
     {
       title: '위아이티X데이터스테이션 Python활용 데이터 분석 프로젝트',
