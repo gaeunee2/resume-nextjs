@@ -16,15 +16,7 @@ const language: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'C / C#',
-      level: 3,
-    },
-    {
       title: 'Python',
-      level: 2,
-    },
-    {
-      title: 'Kotlin (Android)',
       level: 2,
     },
   ],
@@ -103,11 +95,9 @@ const tools: ISkill.Skill = {
     },
     {
       title: 'Notion',
-      level: 3,
     },
     {
       title: 'Figma',
-      level: 2,
     },
   ],
 };

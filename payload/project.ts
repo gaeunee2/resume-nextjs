@@ -104,8 +104,11 @@ const project: IProject.Payload = {
             'AWS RDS·Redis·EC2 기반 인프라 아키텍처 설계 및 nginx 리버스 프록시·API 게이트웨이(/api, /ai 분기) 구성',
         },
         {
+          content: '운영 비용 부담 → GCP Cloud Run·GCS 기반 구조로 마이그레이션해 비용 절감',
+        },
+        {
           content:
-            'OAuth2 소셜 로그인 3종 + JWT/Refresh Token 인증 시스템 구현, GitHub Actions 기반 EC2 자동 배포(CD) 파이프라인 및 Flyway 마이그레이션 구축',
+            'OAuth2 소셜 로그인 3종 + JWT/Refresh Token 인증 시스템 구현, GitHub Actions 기반 자동 배포(CD) 파이프라인 및 Flyway 마이그레이션 구축',
         },
         {
           content: '서비스 URL',
