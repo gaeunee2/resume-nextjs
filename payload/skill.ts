@@ -20,11 +20,11 @@ const language: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Kotlin (Android)',
+      title: 'Python',
       level: 2,
     },
     {
-      title: 'Python',
+      title: 'Kotlin (Android)',
       level: 2,
     },
   ],

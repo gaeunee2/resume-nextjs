@@ -4,18 +4,31 @@ import { IRow } from './IRow';
 import { Style } from './Style';
 import { CommonDescription } from './CommonDescription';
 
-// subTitle 내 개행문자(\n)를 <br/> 로 렌더링하고, http(s) URL 토큰은 링크로 변환
+// subTitle 내 개행문자(\n)를 <br/> 로 렌더링하고, [텍스트](url) 또는 http(s) URL 토큰을 링크로 변환
 function renderLine(line: string) {
-  return line.split(/(\s+)/).map((token, index) => {
-    if (/^https?:\/\//.test(token)) {
-      return (
-        <a key={index.toString()} href={token} target="_blank" rel="noopener noreferrer">
-          {token}
-        </a>
-      );
+  const linkPattern = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|(https?:\/\/\S+)/g;
+  const nodes: JSX.Element[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  // eslint-disable-next-line no-cond-assign
+  while ((match = linkPattern.exec(line)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(<Fragment key={nodes.length}>{line.slice(lastIndex, match.index)}</Fragment>);
     }
-    return <Fragment key={index.toString()}>{token}</Fragment>;
-  });
+    const [, label, labeledUrl, bareUrl] = match;
+    const href = labeledUrl ?? bareUrl;
+    nodes.push(
+      <a key={nodes.length} href={href} target="_blank" rel="noopener noreferrer">
+        {label ?? bareUrl}
+      </a>,
+    );
+    lastIndex = linkPattern.lastIndex;
+  }
+  if (lastIndex < line.length) {
+    nodes.push(<Fragment key={nodes.length}>{line.slice(lastIndex)}</Fragment>);
+  }
+  return nodes;
 }
 
 function renderMultiline(text: string) {

@@ -6,7 +6,7 @@ const awards: IEtc.Payload = {
   list: [
     {
       title: '가비아CNS 웹사이트 공모전',
-      subTitle: '최우수상(2등상)',
+      subTitle: '최우수상',
       startedAt: '2025-07',
     },
     {

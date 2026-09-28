@@ -21,34 +21,22 @@ const etc: IEtc.Payload = {
     },
     {
       title: 'AWS Student Builder Group',
-      subTitle: 'Core Member (운영진)',
+      subTitle: 'Core Member',
       startedAt: '2026-09',
       endedAt: '2027-01',
     },
     {
-      title: 'AWS Cloud Club Crew 3th',
-      subTitle: 'ACC DDWU 운영진\nKubernetes 세션 발표 및 Spring Boot 스터디 리딩',
+      title: 'AWS Cloud Club 3th',
+      subTitle: 'Core Member\nKubernetes 세션 발표 및 Spring Boot 스터디 리딩',
       startedAt: '2025-09',
       endedAt: '2026-02',
     },
     {
-      title: 'UMC 11th',
-      subTitle: '전국 대학생 연합 IT 프로젝트 동아리\n동덕여자대학교 부회장 · Plan 파트 활동',
-      startedAt: '2026-09',
-      endedAt: '2027-02',
-    },
-    {
-      title: 'UMC 10th',
+      title: 'UMC (전국 대학생 연합 IT 프로젝트 동아리)',
       subTitle:
-        '전국 대학생 연합 IT 프로젝트 동아리\n동덕여자대학교 회장 · Plan 파트 활동\nGit Session 진행 및 4개 대학(단국대·동덕여대·숭실대·중앙대) 연합 ‘MESH’ 해커톤 기획·주최\n→ https://meshhack.umc.it.kr/',
-      startedAt: '2026-03',
-      endedAt: '2026-08',
-    },
-    {
-      title: 'UMC 9th',
-      subTitle: '전국 대학생 연합 IT 프로젝트 동아리\nSpring Boot 파트 챌린저',
+        '11th · DDWU 부회장 · Plan 파트 활동 (26.09~27.02)\n10th · DDWU 회장 · Plan 파트 활동 (26.03~26.08)\nGit Session 진행 및 4개 대학(단국대·동덕여대·숭실대·중앙대) 연합 "MESH 해커톤" 기획·주최 · [랜딩페이지 바로가기](https://mesh-hackathon.vercel.app/)\n9th · Spring Boot 파트 활동 (25.09~26.02)',
       startedAt: '2025-09',
-      endedAt: '2026-02',
+      endedAt: '2027-02',
     },
     {
       title: '위아이티 6th',
@@ -59,19 +47,9 @@ const etc: IEtc.Payload = {
     },
     {
       title: '코딩 교육봉사',
-      subTitle: '초등학생 대상 블록코딩·AI 교육봉사 활동',
+      subTitle: '초등학생 대상 블록코딩·AI 활용 교육봉사 활동',
       startedAt: '2024-07',
       endedAt: '2024-08',
-    },
-    {
-      title: 'FAT 2급',
-      subTitle: '자격증 취득',
-      startedAt: '2020-06',
-    },
-    {
-      title: 'ERP 인사관리 2급',
-      subTitle: '자격증 취득',
-      startedAt: '2020-10',
     },
   ],
 };
