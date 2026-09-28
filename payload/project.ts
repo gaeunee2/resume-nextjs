@@ -10,7 +10,7 @@ const project: IProject.Payload = {
       where: '가비아CNS 웹사이트 공모전 (최우수상(2등상) 수상)',
       descriptions: [
         {
-          content: 'React 기반 인터랙티브 캠퍼스 홍보 웹서비스 기획·풀스택 개발 총괄 (팀장)',
+          content: 'React 기반 인터랙티브 캠퍼스 홍보 웹서비스 기획·풀스택 개발 총괄',
         },
         {
           content:
@@ -36,12 +36,11 @@ const project: IProject.Payload = {
       where: '동덕여자대학교 소프트웨어경진대회 (우수상 수상)',
       descriptions: [
         {
-          content:
-            'React(TypeScript) 기반 색상 기록·시각화 웹 서비스 기획·프론트엔드 개발 총괄 (팀장)',
+          content: 'React(TypeScript) 기반 색상 기록·시각화 웹 서비스 기획·프론트엔드 개발 총괄',
         },
         {
           content:
-            'Context API + Service Layer 구조 설계로 상태 관리 로직을 일원화하고 컴포넌트 재사용성 확보',
+            '화면마다 흩어져 있던 상태 관리 로직을 Context API + Service Layer로 일원화해 컴포넌트 재사용성 확보',
         },
         {
           content: 'Firebase 인증·Firestore 연동 및 Recharts 통계·결과 공유 이미지 생성 기능 구현',
@@ -63,50 +62,24 @@ const project: IProject.Payload = {
       where: '10th UMC DEMO DAY (우수상 수상)',
       descriptions: [
         {
-          content: 'PM으로 기획서·기능명세서 작성, Figma로 와이어프레임·화면설계서 제작',
+          content:
+            'PM 및 백엔드 개발 총괄 — 기획서·기능명세서 작성, 뉴스·시세 수집 및 예측 정산 Spring Batch 파이프라인 설계',
         },
         {
           content:
-            'Kotlin·Spring Boot 기반 백엔드 개발 — 뉴스 수집, AI 카드뉴스 생성, 종가 수집, 예측 정산 Spring Batch 파이프라인 구현',
-        },
-        {
-          content: '한국투자증권(KIS) Open API·네이버 뉴스검색 API 연동',
+            '다중 인스턴스 환경에서 KIS 토큰 발급 제한 초과 오류 발생 → Valkey 캐싱 + TTL 락 적용으로 해결',
         },
         {
           content:
-            'KIS 토큰을 Valkey에 캐싱하고 TTL 락을 적용해 다중 인스턴스 환경의 토큰 발급 제한 초과 오류 해결',
+            '종목 1건 실패로 종가 배치 전체가 롤백되는 문제 → 외부 API 호출을 트랜잭션 밖으로 분리하고 호출 간 스로틀링 적용으로 해결',
         },
         {
           content:
-            '외부 API 호출을 트랜잭션 밖으로 분리하고 호출 간 스로틀링을 적용해, 종목 1건 실패로 종가 배치 전체가 롤백되던 문제 해결',
-        },
-        {
-          content: 'QueryDSL 조회 쿼리 용도별 분리 및 뉴스 종목 관련성 필터 구현',
+            '한국투자증권(KIS) Open API·네이버 뉴스검색 API 연동 및 QueryDSL 조회 쿼리 최적화',
         },
         {
           content: 'Github Repository',
           href: 'https://github.com/Team-BRIFO',
-        },
-      ],
-    },
-    {
-      title: 'VR 기업의 교육 분야 진출 전략 수립을 위한 데이터 분석 프로젝트',
-      startedAt: '2024-12',
-      endedAt: '2025-02',
-      where: '위아이티X데이터스테이션 프로젝트 (우수상 수상)',
-      descriptions: [
-        {
-          content: 'Python 기반 데이터 전처리·시각화 및 상관분석(Pearson Correlation) 수행',
-        },
-        {
-          content: 'K-means 클러스터링으로 VR 기기 보유자 특성·잠재 사용자층 세분화',
-        },
-        {
-          content: '분석 결과 기반 VR 기업의 교육 시장 진출 전략 및 타겟 마케팅 방향 제안',
-        },
-        {
-          content: 'Github Repository',
-          href: 'https://github.com/gaeunee2/we_it12',
         },
       ],
     },
@@ -122,7 +95,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'pgvector·Redis Queue 기반 AI 임베딩 저장·검색 및 SSE 스트리밍 응답 처리로 AI 응답 대기 경험 개선',
+            'AI 응답 대기 시간 동안 체감 지연이 컸던 문제 → pgvector·Redis Queue 기반 임베딩 저장·검색 및 SSE 스트리밍 응답으로 개선',
         },
         {
           content:
@@ -131,50 +104,6 @@ const project: IProject.Payload = {
         {
           content: 'Github Repository',
           href: 'https://github.com/Team-Proovy/Proovy-server',
-        },
-      ],
-    },
-    {
-      title: 'AI 트레이너 기반 러닝 헬스케어 서비스, "푸동푸동" 개발',
-      startedAt: '2025-07',
-      endedAt: '2025-08',
-      where: 'K-html 해커톤 (본선 진출)',
-      descriptions: [
-        {
-          content: '서비스 기획·UX 설계 및 React 프론트엔드 개발 총괄 (팀장)',
-        },
-        {
-          content:
-            'GPS 기반 이동거리·페이스 측정 로직과 Spring Boot API 연동으로 실시간 러닝 기록 기능 구현',
-        },
-        {
-          content: 'Clova STT/TTS 기반 음성 AI 러닝 코칭 및 AI 영상 생성 기능 연동',
-        },
-        {
-          content: 'Github Repository',
-          href: 'https://github.com/orgs/Pureureum/repositories',
-        },
-      ],
-    },
-    {
-      title: '시니어 맞춤 건강·정서 케어 앱, "할무이랑" 개발',
-      startedAt: '2025-07',
-      endedAt: '2025-08',
-      where: '서울 우먼테크 해커톤 (본선 진출)',
-      descriptions: [
-        {
-          content: '서울시 시니어 대상 Kotlin 기반 건강·정서 케어 앱 기획·개발 총괄 (팀장)',
-        },
-        {
-          content:
-            '시니어 친화형 UI 설계 및 날씨 API·Clova Voice 기반 음성 안내·정서 케어 기능 구현',
-        },
-        {
-          content: 'Clova Voice 파라미터 튜닝으로 음성 안내 품질 개선',
-        },
-        {
-          content: '시연 영상',
-          href: 'https://www.youtube.com/shorts/Xe23hOafyhY',
         },
       ],
     },
