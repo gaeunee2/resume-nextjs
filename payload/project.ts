@@ -104,7 +104,8 @@ const project: IProject.Payload = {
             'AWS RDS·Redis·EC2 기반 인프라 아키텍처 설계 및 nginx 리버스 프록시·API 게이트웨이(/api, /ai 분기) 구성',
         },
         {
-          content: '운영 비용 부담 → GCP Cloud Run·GCS 기반 구조로 마이그레이션해 비용 절감',
+          content:
+            '고정 서버 운영 구조의 비용 비효율 → Cloud Run·GCS 기반 서버리스 아키텍처로 전환해 비용 최적화',
         },
         {
           content:
